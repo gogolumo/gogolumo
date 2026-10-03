@@ -2,10 +2,6 @@
   <img src="assets/394b129057fdc78c9cb42c94778ec4cb3d85f500673295ae72b27285ac8fdcbc.gif" width="520" alt="gogolumo">
 </p>
 
-<p align="center">
-  <sub>me vs. the last failing CI job</sub>
-</p>
-
 <h1 align="center">Bohdan Dron</h1>
 
 <p align="center">
