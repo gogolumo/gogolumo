@@ -1,23 +1,44 @@
 <p align="center">
-  <img src="assets/gogolumo.gif" width="100%" alt="gogolumo terminal animation">
+  <img src="assets/gogolumo.gif" width="520" alt="gogolumo">
 </p>
 
-# Bohdan Dron
-
-Software developer based in Antwerp, Belgium.
-
-I build native macOS tools, storage research, and developer tooling —
-usually the kind of thing I keep wishing already existed.
-
-Mostly working on [Wheel](https://github.com/gogolumo/Wheel) and [PlaySparse](https://github.com/gogolumo/PlaySparse).
-
-<p>
-  <a href="https://github.com/gogolumo">
-    <img src="https://img.shields.io/badge/GitHub-gogolumo-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub">
-  </a>
+<p align="center">
+  <sub>me vs. the last failing CI job</sub>
 </p>
 
-## Selected work
+<h1 align="center">Bohdan Dron</h1>
+
+<p align="center">
+  <code>@gogolumo</code> · software developer in Antwerp, Belgium
+</p>
+
+<p align="center">
+  <b>macOS tools · systems experiments · developer tooling</b>
+</p>
+
+<p align="center">
+  <a href="https://github.com/gogolumo/Wheel">Wheel</a>
+  ·
+  <a href="https://github.com/gogolumo/PlaySparse">PlaySparse</a>
+  ·
+  <a href="https://github.com/gogolumo/punktiq-showcase">Punktiq</a>
+  ·
+  <a href="https://github.com/gogolumo/rbsmithy-roblox-claude-skill">RBSmithy</a>
+</p>
+
+---
+
+```text
+$ whoami
+bohdan — I build things I keep wishing already existed.
+
+$ pwd
+~/macos-tools/systems-experiments/dev-tooling
+```
+
+Most of my time goes into turning a slightly questionable idea into something that actually runs, then finding the next thing that breaks.
+
+## ~/projects
 
 <table>
 <tr>
@@ -25,7 +46,7 @@ Mostly working on [Wheel](https://github.com/gogolumo/Wheel) and [PlaySparse](ht
 
 ### [Wheel](https://github.com/gogolumo/Wheel)
 
-Native macOS utility for spatial app navigation. Hold a trigger, aim at a sector, release to switch — recent apps, pinned destinations, and reopen for recently closed ones.
+Native macOS context navigation built around a radial interface — jump between recent apps, pin destinations, and reopen recently closed contexts.
 
 `Swift` `SwiftUI` `AppKit`
 
@@ -34,18 +55,19 @@ Native macOS utility for spatial app navigation. Hold a trigger, aim at a sector
 
 ### [PlaySparse](https://github.com/gogolumo/PlaySparse)
 
-Experimental storage runtime for very large games. Content-defined chunking into a BLAKE3/Zstd CAS, served through a real FUSE (and WinFsp) mount without extracting files.
+Experimental storage runtime for very large games: content-defined chunking, BLAKE3/Zstd CAS, range serving, FUSE/WinFsp mounts, writable overlays and adaptive-storage research.
 
-`Rust` `Python` `BLAKE3` `Zstd` `FUSE`
+`Rust` `Python` `BLAKE3` `Zstd`
 
 </td>
 </tr>
+
 <tr>
 <td width="50%" valign="top">
 
 ### [Punktiq](https://github.com/gogolumo/punktiq-showcase)
 
-Study companion prototype: focused cheat sheets, verified checks, in-browser SQL practice, daily goals/XP, and a companion named Simon. Portfolio showcase — source stays private.
+Mobile-first study companion prototype built around focused learning, verified progress, goals, XP and a small companion system.
 
 `React` `TypeScript` `Vite`
 
@@ -54,53 +76,54 @@ Study companion prototype: focused cheat sheets, verified checks, in-browser SQL
 
 ### [RBSmithy](https://github.com/gogolumo/rbsmithy-roblox-claude-skill)
 
-Claude Skill that turns Claude Code into a Roblox development assistant — Luau, Rojo, server-authoritative multiplayer, and a Blender → MeshPart asset workflow.
+Developer tooling for building Roblox projects with coding agents — Luau, Rojo workflows, multiplayer systems, asset planning and Blender → MeshPart pipelines.
 
-`Luau` `Rojo` `Roblox` `Blender`
+`Luau` `Roblox` `Rojo` `Blender`
 
 </td>
 </tr>
 </table>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/gogolumo/Wheel/main/docs/assets/readme/wheel-overlay.png" width="72%" alt="Wheel radial overlay">
-</p>
+## ~/now
 
-```swift
-let currentFocus = [
-    "Wheel",
-    "PlaySparse",
-    "developer tooling"
-]
+```text
+gogolumo/
+├── Wheel        → native macOS context navigation
+├── PlaySparse   → adaptive virtual-storage research
+├── Punktiq      → study-product prototype
+└── RBSmithy     → Roblox developer tooling
 ```
 
-## Pre-push ritual
+## toolbox
 
 <p align="center">
-  <img src="assets/hand-seals.jpg" width="420" alt="me right before git push">
-  <br>
-  <sub>me, right before <code>git push</code></sub>
+  <img src="https://skillicons.dev/icons?i=swift,rust,python,java,ts,react,nextjs,postgres,docker,git,linux,figma,blender&perline=13" alt="toolbox">
 </p>
 
-```bash
-git add .
-git commit -m "one more tiny fix"
-git push
-# CI starts forming hand seals
-# reviewers awaken
-# merge when the checks turn green
+<details>
+<summary><b>more things I end up using</b></summary>
+<br>
+
+`SwiftUI` · `AppKit` · `FastAPI` · `PostgreSQL` · `GitHub Actions` · `Bash` · `Docker` · `Linux`
+
+</details>
+
+## debug.log
+
+```text
+[ OK ] make it work
+[ OK ] make it native
+[ OK ] make CI green
+[ .. ] stop adding "one more thing"
 ```
 
-## Stack
+## elsewhere
 
-Technologies that actually show up in my public work:
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=swift,rust,python,ts,react,nextjs,docker,git,linux,blender" alt="Stack icons" />
-</p>
+- [Archivonchik](https://github.com/gogolumo/archivonchik-ai-ready-skill) — project memory and repository context for coding agents
+- [KBC Care](https://github.com/gogolumo/KBC-Care) — hackathon prototype with a Next.js frontend and FastAPI backend
 
 ---
 
 <p align="center">
-  <sub>Also elsewhere: <a href="https://github.com/gogolumo/archivonchik-ai-ready-skill">Archivonchik</a> · <a href="https://github.com/gogolumo/KBC-Care">KBC Care</a></sub>
+  <sub>if the checks are green, I'm probably already changing something else</sub>
 </p>
