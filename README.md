@@ -1,30 +1,30 @@
 <p align="center">
-  <img src="assets/394b129057fdc78c9cb42c94778ec4cb3d85f500673295ae72b27285ac8fdcbc.gif" width="520" alt="gogolumo">
+  <img src="assets/394b129057fdc78c9cb42c94778ec4cb3d85f500673295ae72b27285ac8fdcbc.gif" width="720" alt="gogolumo">
 </p>
 
 <h1 align="center">Bohdan Dron</h1>
 
 <p align="center">
-  Software developer based in Antwerp, Belgium.
+  <code>@gogolumo</code> · Antwerp, Belgium
 </p>
 
 <p align="center">
-  I build native apps, systems experiments, and developer tools.
+  building native macOS stuff, weird storage experiments, and tools I wish already existed.
 </p>
 
 <p align="center">
   <a href="https://github.com/gogolumo/Wheel"><b>Wheel</b></a>
-  ·
+  &nbsp;·&nbsp;
   <a href="https://github.com/gogolumo/PlaySparse"><b>PlaySparse</b></a>
-  ·
+  &nbsp;·&nbsp;
   <a href="https://github.com/gogolumo/punktiq-showcase"><b>Punktiq</b></a>
-  ·
+  &nbsp;·&nbsp;
   <a href="https://github.com/gogolumo/rbsmithy-roblox-claude-skill"><b>RBSmithy</b></a>
 </p>
 
 <p align="center">
   <a href="mailto:scubi.dubi.do2410@gmail.com">
-    <img src="https://img.shields.io/badge/email-contact-2f81f7?style=flat-square&logo=gmail&logoColor=white" alt="Email">
+    <img src="https://img.shields.io/badge/email-181717?style=flat-square&logo=gmail&logoColor=white" alt="Email">
   </a>
 </p>
 
@@ -32,11 +32,33 @@
 
 ## About me
 
-I’m the kind of person who gets annoyed by something and then starts building a tool for it.
+I usually start with **“this is annoying”** and somehow end up with another repo.
 
-Most of my projects begin with **“why isn’t there a better way to do this?”** and usually grow way further than I planned. I like native macOS apps, low-level/system stuff, storage experiments, and tools that make development less annoying.
+I like building things that feel useful, fast, and actually nice to use. Lately that mostly means native macOS apps, low-level/system stuff, storage experiments, and developer tooling.
 
-I’m still learning a lot, but I’d rather build, break, fix, and test something real than just keep it as an idea. And yeah — if the UI feels clunky, it bothers me almost as much as broken code.
+I’m still learning a lot, so my usual process is pretty simple: **build it, break it, figure out why, fix it, repeat.**
+
+## The usual workflow
+
+<table>
+<tr>
+<td width="33%" align="center" valign="top">
+  <img src="assets/coffee-loop.gif" width="180" alt="this will be a tiny side project">
+  <br><br>
+  <sub><b>“this will be a tiny side project”</b></sub>
+</td>
+<td width="33%" align="center" valign="top">
+  <img src="assets/drive-loop.gif" width="180" alt="two hours later">
+  <br><br>
+  <sub><b>two hours later</b></sub>
+</td>
+<td width="33%" align="center" valign="top">
+  <img src="assets/bugfight.gif" width="180" alt="me vs the last failing CI check">
+  <br><br>
+  <sub><b>me vs. the last red CI check</b></sub>
+</td>
+</tr>
+</table>
 
 ## Languages
 
@@ -60,30 +82,32 @@ I’m still learning a lot, but I’d rather build, break, fix, and test somethi
   <img src="https://skillicons.dev/icons?i=react,nextjs,postgres,docker,git,github,linux,figma,blender,vscode&perline=10" alt="Tools">
 </p>
 
-I also work with **SwiftUI**, **AppKit**, **FastAPI**, **GitHub Actions**, **SQL**, and whatever else a project forces me to learn.
-
-## A few other things
-
-- [Archivonchik](https://github.com/gogolumo/archivonchik-ai-ready-skill) — repository memory and context tooling for coding agents.
-- [KBC Care](https://github.com/gogolumo/KBC-Care) — a hackathon prototype with a Next.js frontend and FastAPI backend.
+<p align="center">
+  <code>SwiftUI</code>
+  <code>AppKit</code>
+  <code>FastAPI</code>
+  <code>PostgreSQL</code>
+  <code>GitHub Actions</code>
+  <code>Docker</code>
+  <code>Linux</code>
+</p>
 
 ## Current focus
 
 ```text
-Wheel        native macOS context navigation
-PlaySparse   adaptive storage / runtime research
-Punktiq      learning product prototype
-RBSmithy     AI-assisted Roblox development tooling
+Wheel        → native macOS context navigation
+PlaySparse   → adaptive storage / runtime research
+Punktiq      → learning product prototype
+RBSmithy     → AI-assisted Roblox developer tooling
 ```
 
-## Contact
+## Elsewhere
 
-The easiest way to reach me is by email:
-
-**scubi.dubi.do2410@gmail.com**
+- [Archivonchik](https://github.com/gogolumo/archivonchik-ai-ready-skill) — repository memory and context tooling for coding agents.
+- [KBC Care](https://github.com/gogolumo/KBC-Care) — a hackathon prototype with a Next.js frontend and FastAPI backend.
 
 ---
 
 <p align="center">
-  <sub>Usually building something, fixing something, or both.</sub>
+  <sub>usually building something, fixing something, or turning one small feature into a whole project.</sub>
 </p>
