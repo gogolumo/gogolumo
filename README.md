@@ -5,36 +5,40 @@
 <h1 align="center">Bohdan Dron</h1>
 
 <p align="center">
-  <code>@gogolumo</code> · software developer in Antwerp, Belgium
+  Software developer based in Antwerp, Belgium.
 </p>
 
 <p align="center">
-  <b>macOS tools · systems experiments · developer tooling</b>
+  I build native apps, systems experiments, and developer tools.
 </p>
 
 <p align="center">
-  <a href="https://github.com/gogolumo/Wheel">Wheel</a>
+  <a href="https://github.com/gogolumo/Wheel"><b>Wheel</b></a>
   ·
-  <a href="https://github.com/gogolumo/PlaySparse">PlaySparse</a>
+  <a href="https://github.com/gogolumo/PlaySparse"><b>PlaySparse</b></a>
   ·
-  <a href="https://github.com/gogolumo/punktiq-showcase">Punktiq</a>
+  <a href="https://github.com/gogolumo/punktiq-showcase"><b>Punktiq</b></a>
   ·
-  <a href="https://github.com/gogolumo/rbsmithy-roblox-claude-skill">RBSmithy</a>
+  <a href="https://github.com/gogolumo/rbsmithy-roblox-claude-skill"><b>RBSmithy</b></a>
+</p>
+
+<p align="center">
+  <a href="mailto:scubi.dubi.do2410@gmail.com">
+    <img src="https://img.shields.io/badge/email-contact-2f81f7?style=flat-square&logo=gmail&logoColor=white" alt="Email">
+  </a>
 </p>
 
 ---
 
-```text
-$ whoami
-bohdan — I build things I keep wishing already existed.
+## About me
 
-$ pwd
-~/macos-tools/systems-experiments/dev-tooling
-```
+I like projects that solve an annoying problem in a way that feels simple to use.
 
-Most of my time goes into turning a slightly questionable idea into something that actually runs, then finding the next thing that breaks.
+Most of my work starts as a small experiment and then gets pushed until it behaves like a real product. Right now I’m especially interested in **native macOS software**, **storage/runtime systems**, and **developer tooling**.
 
-## ~/projects
+I care a lot about how software feels — not only whether it technically works.
+
+## What I’m working on
 
 <table>
 <tr>
@@ -42,18 +46,22 @@ Most of my time goes into turning a slightly questionable idea into something th
 
 ### [Wheel](https://github.com/gogolumo/Wheel)
 
-Native macOS context navigation built around a radial interface — jump between recent apps, pin destinations, and reopen recently closed contexts.
+A native macOS utility for moving between application contexts with a radial interface.
 
-`Swift` `SwiftUI` `AppKit`
+Recent apps, pinned destinations, reopen flows, and a UI that stays out of the way until you need it.
+
+**Built with:** Swift, SwiftUI, AppKit
 
 </td>
 <td width="50%" valign="top">
 
 ### [PlaySparse](https://github.com/gogolumo/PlaySparse)
 
-Experimental storage runtime for very large games: content-defined chunking, BLAKE3/Zstd CAS, range serving, FUSE/WinFsp mounts, writable overlays and adaptive-storage research.
+An experimental storage runtime for very large games.
 
-`Rust` `Python` `BLAKE3` `Zstd`
+It explores content-defined chunking, BLAKE3/Zstd content-addressed storage, byte-range serving, FUSE/WinFsp mounts, writable overlays, tracing, and adaptive storage ideas.
+
+**Built with:** Rust, Python, BLAKE3, Zstd
 
 </td>
 </tr>
@@ -63,63 +71,73 @@ Experimental storage runtime for very large games: content-defined chunking, BLA
 
 ### [Punktiq](https://github.com/gogolumo/punktiq-showcase)
 
-Mobile-first study companion prototype built around focused learning, verified progress, goals, XP and a small companion system.
+A mobile-first study companion prototype focused on actual learning progress instead of endless scrolling.
 
-`React` `TypeScript` `Vite`
+It combines focused study material, checks, goals, XP, notes, and a small companion system.
+
+**Built with:** TypeScript, React, Vite
 
 </td>
 <td width="50%" valign="top">
 
 ### [RBSmithy](https://github.com/gogolumo/rbsmithy-roblox-claude-skill)
 
-Developer tooling for building Roblox projects with coding agents — Luau, Rojo workflows, multiplayer systems, asset planning and Blender → MeshPart pipelines.
+Developer tooling for building Roblox projects with coding agents.
 
-`Luau` `Roblox` `Rojo` `Blender`
+It covers Luau, Rojo workflows, multiplayer systems, asset planning, optimization, QA, and Blender → MeshPart pipelines.
+
+**Built with:** Luau, Roblox, Rojo, Blender
 
 </td>
 </tr>
 </table>
 
-## ~/now
-
-```text
-gogolumo/
-├── Wheel        → native macOS context navigation
-├── PlaySparse   → adaptive virtual-storage research
-├── Punktiq      → study-product prototype
-└── RBSmithy     → Roblox developer tooling
-```
-
-## toolbox
+## Languages
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=swift,rust,python,java,ts,react,nextjs,postgres,docker,git,linux,figma,blender&perline=13" alt="toolbox">
+  <img src="https://skillicons.dev/icons?i=swift,rust,python,java,ts,js,bash&perline=7" alt="Programming languages">
 </p>
 
-<details>
-<summary><b>more things I end up using</b></summary>
-<br>
+<p align="center">
+  <code>Swift</code>
+  <code>Rust</code>
+  <code>Python</code>
+  <code>Java</code>
+  <code>TypeScript</code>
+  <code>JavaScript</code>
+  <code>Bash</code>
+</p>
 
-`SwiftUI` · `AppKit` · `FastAPI` · `PostgreSQL` · `GitHub Actions` · `Bash` · `Docker` · `Linux`
+## Tools I use
 
-</details>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=react,nextjs,postgres,docker,git,github,linux,figma,blender,vscode&perline=10" alt="Tools">
+</p>
 
-## debug.log
+I also work with **SwiftUI**, **AppKit**, **FastAPI**, **GitHub Actions**, **SQL**, and whatever else a project forces me to learn.
+
+## A few other things
+
+- [Archivonchik](https://github.com/gogolumo/archivonchik-ai-ready-skill) — repository memory and context tooling for coding agents.
+- [KBC Care](https://github.com/gogolumo/KBC-Care) — a hackathon prototype with a Next.js frontend and FastAPI backend.
+
+## Current focus
 
 ```text
-[ OK ] make it work
-[ OK ] make it native
-[ OK ] make CI green
-[ .. ] stop adding "one more thing"
+Wheel        native macOS context navigation
+PlaySparse   adaptive storage / runtime research
+Punktiq      learning product prototype
+RBSmithy     AI-assisted Roblox development tooling
 ```
 
-## elsewhere
+## Contact
 
-- [Archivonchik](https://github.com/gogolumo/archivonchik-ai-ready-skill) — project memory and repository context for coding agents
-- [KBC Care](https://github.com/gogolumo/KBC-Care) — hackathon prototype with a Next.js frontend and FastAPI backend
+The easiest way to reach me is by email:
+
+**scubi.dubi.do2410@gmail.com**
 
 ---
 
 <p align="center">
-  <sub>if the checks are green, I'm probably already changing something else</sub>
+  <sub>Usually building something, fixing something, or both.</sub>
 </p>
