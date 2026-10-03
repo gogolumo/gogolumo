@@ -32,65 +32,11 @@
 
 ## About me
 
-I like projects that solve an annoying problem in a way that feels simple to use.
+I’m the kind of person who gets annoyed by something and then starts building a tool for it.
 
-Most of my work starts as a small experiment and then gets pushed until it behaves like a real product. Right now I’m especially interested in **native macOS software**, **storage/runtime systems**, and **developer tooling**.
+Most of my projects begin with **“why isn’t there a better way to do this?”** and usually grow way further than I planned. I like native macOS apps, low-level/system stuff, storage experiments, and tools that make development less annoying.
 
-I care a lot about how software feels — not only whether it technically works.
-
-## What I’m working on
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### [Wheel](https://github.com/gogolumo/Wheel)
-
-A native macOS utility for moving between application contexts with a radial interface.
-
-Recent apps, pinned destinations, reopen flows, and a UI that stays out of the way until you need it.
-
-**Built with:** Swift, SwiftUI, AppKit
-
-</td>
-<td width="50%" valign="top">
-
-### [PlaySparse](https://github.com/gogolumo/PlaySparse)
-
-An experimental storage runtime for very large games.
-
-It explores content-defined chunking, BLAKE3/Zstd content-addressed storage, byte-range serving, FUSE/WinFsp mounts, writable overlays, tracing, and adaptive storage ideas.
-
-**Built with:** Rust, Python, BLAKE3, Zstd
-
-</td>
-</tr>
-
-<tr>
-<td width="50%" valign="top">
-
-### [Punktiq](https://github.com/gogolumo/punktiq-showcase)
-
-A mobile-first study companion prototype focused on actual learning progress instead of endless scrolling.
-
-It combines focused study material, checks, goals, XP, notes, and a small companion system.
-
-**Built with:** TypeScript, React, Vite
-
-</td>
-<td width="50%" valign="top">
-
-### [RBSmithy](https://github.com/gogolumo/rbsmithy-roblox-claude-skill)
-
-Developer tooling for building Roblox projects with coding agents.
-
-It covers Luau, Rojo workflows, multiplayer systems, asset planning, optimization, QA, and Blender → MeshPart pipelines.
-
-**Built with:** Luau, Roblox, Rojo, Blender
-
-</td>
-</tr>
-</table>
+I’m still learning a lot, but I’d rather build, break, fix, and test something real than just keep it as an idea. And yeah — if the UI feels clunky, it bothers me almost as much as broken code.
 
 ## Languages
 
