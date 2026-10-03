@@ -74,6 +74,23 @@ let currentFocus = [
 ]
 ```
 
+## Pre-push ritual
+
+<p align="center">
+  <img src="assets/hand-seals.jpg" width="420" alt="me right before git push">
+  <br>
+  <sub>me, right before <code>git push</code></sub>
+</p>
+
+```bash
+git add .
+git commit -m "one more tiny fix"
+git push
+# CI starts forming hand seals
+# reviewers awaken
+# merge when the checks turn green
+```
+
 ## Stack
 
 Technologies that actually show up in my public work:
