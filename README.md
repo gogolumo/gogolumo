@@ -2,8 +2,6 @@
   <img src="assets/394b129057fdc78c9cb42c94778ec4cb3d85f500673295ae72b27285ac8fdcbc.gif" width="720" alt="gogolumo">
 </p>
 
-<h1 align="center">Bohdan Dron</h1>
-
 <p align="center">
   <code>@gogolumo</code> · Antwerp, Belgium
 </p>
