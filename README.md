@@ -40,25 +40,11 @@ I’m still learning a lot, so my usual process is pretty simple: **build it, br
 
 ## The usual workflow
 
-<table>
-<tr>
-<td width="33%" align="center" valign="top">
-  <img src="assets/coffee-loop.gif" width="180" alt="this will be a tiny side project">
-  <br><br>
-  <sub><b>“this will be a tiny side project”</b></sub>
-</td>
-<td width="33%" align="center" valign="top">
-  <img src="assets/drive-loop.gif" width="180" alt="two hours later">
-  <br><br>
-  <sub><b>two hours later</b></sub>
-</td>
-<td width="33%" align="center" valign="top">
-  <img src="assets/bugfight.gif" width="180" alt="me vs the last failing CI check">
-  <br><br>
-  <sub><b>me vs. the last red CI check</b></sub>
-</td>
-</tr>
-</table>
+<p align="center">
+  <img src="assets/coffee-loop.gif" width="180" alt="gif 1">
+  <img src="assets/drive-loop.gif" width="180" alt="gif 2">
+  <img src="assets/bugfight.gif" width="180" alt="gif 3">
+</p>
 
 ## Languages
 
