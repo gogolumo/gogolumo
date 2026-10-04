@@ -39,9 +39,9 @@ I like building things that feel useful, fast, and actually nice to use. Lately 
 I’m still learning a lot, so my usual process is pretty simple: **build it, break it, figure out why, fix it, repeat.**
 
 <p align="center">
-  <img src="assets/coffee-loop.gif" width="180" alt="gif 1">
-  <img src="assets/drive-loop.gif" width="180" alt="gif 2">
-  <img src="assets/bugfight.gif" width="180" alt="gif 3">
+  <img src="assets/32ee4097368a2be75730afae6964254d08793209.gif" width="180" alt="gif 1">
+  <img src="assets/33674212e3e28c74c3278d987d232dc59b6e13ab.gif" width="180" alt="gif 2">
+  <img src="assets/6bb43e481eaa41dbd87b4bdbea0244f3b2fe162e.gif" width="180" alt="gif 3">
 </p>
 
 ## Languages
