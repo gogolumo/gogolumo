@@ -41,7 +41,7 @@ I’m still learning a lot, so my usual process is pretty simple: **build it, br
 <p align="center">
   <img src="assets/bc2324ea1933ac77e41112100ebddbadc19b4e42.gif" width="180" alt="gif 1">
   <img src="assets/33674212e3e28c74c3278d987d232dc59b6e13ab.gif" width="180" alt="gif 2">
-  <img src="assets/e489570cf1c07aa6d45d939873b21f3820e40442.gif" width="180" alt="gif 3">
+  <img src="assets/ecf24ab2ca22134b00815a870c45d2b94f8b650c.gif" width="180" alt="gif 3">
 </p>
 
 ## Languages
