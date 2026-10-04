@@ -38,8 +38,6 @@ I like building things that feel useful, fast, and actually nice to use. Lately 
 
 I’m still learning a lot, so my usual process is pretty simple: **build it, break it, figure out why, fix it, repeat.**
 
-## The usual workflow
-
 <p align="center">
   <img src="assets/coffee-loop.gif" width="180" alt="gif 1">
   <img src="assets/drive-loop.gif" width="180" alt="gif 2">
