@@ -41,6 +41,12 @@ else
     actual="$(gh repo view "$EXPECTED_OWNER/$name" --json visibility --jq '.visibility')"
     [[ "$actual" == "PUBLIC" ]] || { echo "$name is not public; stopping." >&2; exit 1; }
     gh api "repos/$EXPECTED_OWNER/$name/contents/README.md" --jq '.sha' >/dev/null
+    while IFS= read -r rel; do
+      case "$rel" in
+        README.md|index.html|ASSET_PROVENANCE.md|assets/*.png|assets/ORIGINAL_PROJECT_MIT_LICENSE.txt) ;;
+        *) echo "Unexpected public showcase file in $name: $rel. Review before cutover." >&2; exit 1 ;;
+      esac
+    done < <(gh api "repos/$EXPECTED_OWNER/$name/git/trees/main?recursive=1" --jq '.tree[] | select(.type == "blob") | .path')
   done
 fi
 
