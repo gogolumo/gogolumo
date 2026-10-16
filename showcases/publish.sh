@@ -28,13 +28,21 @@ LOGIN="$(gh api user --jq '.login')"
 git config --get user.name >/dev/null || { echo "Configure git user.name first." >&2; exit 1; }
 git config --get user.email >/dev/null || { echo "Configure git user.email first." >&2; exit 1; }
 
-# Do not overwrite an existing repository, or publish from a source-history clone.
-for name in Wheel-showcase PlaySparse-showcase; do
-  if gh repo view "$EXPECTED_OWNER/$name" --json name >/dev/null 2>&1; then
-    echo "Refusing: $EXPECTED_OWNER/$name already exists. Check it manually." >&2
-    exit 1
-  fi
-done
+# Publication and privacy cutover are separate, explicitly confirmed modes.
+if [[ -z "$MODE" ]]; then
+  for name in Wheel-showcase PlaySparse-showcase; do
+    if gh repo view "$EXPECTED_OWNER/$name" --json name >/dev/null 2>&1; then
+      echo "Refusing to overwrite existing $EXPECTED_OWNER/$name." >&2
+      exit 1
+    fi
+  done
+else
+  for name in Wheel-showcase PlaySparse-showcase; do
+    actual="$(gh repo view "$EXPECTED_OWNER/$name" --json visibility --jq '.visibility')"
+    [[ "$actual" == "PUBLIC" ]] || { echo "$name is not public; stopping." >&2; exit 1; }
+    gh api "repos/$EXPECTED_OWNER/$name/contents/README.md" --jq '.sha' >/dev/null
+  done
+fi
 
 for slug in wheel playsparse; do
   src="$ROOT/$slug"
@@ -51,12 +59,13 @@ for slug in wheel playsparse; do
   done < <(find "$src" -type f)
 done
 
-echo "About to create TWO PUBLIC, showcase-only repositories with new Git history:"
-echo "  github.com/$EXPECTED_OWNER/Wheel-showcase"
-echo "  github.com/$EXPECTED_OWNER/PlaySparse-showcase"
-echo "No original source code or original Git history will be copied."
-read -r -p "Type PUBLISH SHOWCASES to continue: " approval
-[[ "$approval" == "PUBLISH SHOWCASES" ]] || { echo "Cancelled."; exit 0; }
+if [[ -z "$MODE" ]]; then
+  echo "About to create TWO PUBLIC, showcase-only repositories with new Git history:"
+  echo "  github.com/$EXPECTED_OWNER/Wheel-showcase"
+  echo "  github.com/$EXPECTED_OWNER/PlaySparse-showcase"
+  echo "No original source code or original Git history will be copied."
+  read -r -p "Type PUBLISH SHOWCASES to continue: " approval
+  [[ "$approval" == "PUBLISH SHOWCASES" ]] || { echo "Cancelled."; exit 0; }
 
 TEMP_DIR="$(mktemp -d)"
 for item in "wheel:Wheel-showcase" "playsparse:PlaySparse-showcase"; do
@@ -76,10 +85,9 @@ for item in "wheel:Wheel-showcase" "playsparse:PlaySparse-showcase"; do
 done
 
 echo "Independent showcases created. Verify the images, links, markdown and responsive pages."
-if [[ "$MODE" != "--make-sources-private" ]]; then
-  echo "Original Wheel and PlaySparse source repositories remain PUBLIC."
-  echo "To migrate original repositories after review, use --make-sources-private."
-  exit 0
+echo "Original Wheel and PlaySparse source repositories remain PUBLIC."
+echo "After verifying both public showcases, run --make-sources-private separately."
+exit 0
 fi
 
 echo
