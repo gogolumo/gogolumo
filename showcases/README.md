@@ -12,6 +12,7 @@ Two portfolio-only presentations, staged separately from their original applicat
 - [Wheel standalone static presentation](wheel/index.html)
 - [PlaySparse standalone static presentation](playsparse/index.html)
 - [Migration & licensing checklist](MIGRATION_CHECKLIST.md)
+- [Guarded publication script](publish.sh) — creates two clean public showcase repositories; optional separately confirmed privacy cutover with local mirror backups.
 
 The **original source repositories are currently public and MIT-licensed**. These showcases do not revoke any past open-source rights, imply that already-published code has been secured, or guarantee that public forks/clones can be recalled.
 
