@@ -32,6 +32,8 @@ PlaySparse experiments with content-addressed, chunked, compressed and verified 
 - The current app builds are **development artifacts**, not signed/notarized consumer releases.
 - Individual game/hardware examples do not establish universal compatibility.
 
+[Original screenshot provenance and MIT notice](ASSET_PROVENANCE.md).
+
 Screenshots are documented UI captures from the original project. The native image uses generated fixtures; some desktop preview images explicitly represent preview-mode data. This showcase does not manufacture performance results.
 
 ## Engineering and partnerships
