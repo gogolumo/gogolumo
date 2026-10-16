@@ -83,6 +83,14 @@ Punktiq      → learning product prototype
 RBSmithy     → AI-assisted Roblox developer tooling
 ```
 
+## Build something together?
+
+I build practical developer tools, macOS utilities, and experimental software. If a project here is close to a problem you're trying to solve, I'm open to discussing **custom implementation, integration, technical prototypes, and maintenance by agreement**.
+
+- **Explore the work:** [Wheel](https://github.com/gogolumo/Wheel) · [PlaySparse](https://github.com/gogolumo/PlaySparse) · [GitHub CI Fixer](https://github.com/gogolumo/github-ci-fixer) · [RBSmithy](https://github.com/gogolumo/rbsmithy-roblox-claude-skill)
+- **Start a project conversation:** [Email me](mailto:scubi.dubi.do2410@gmail.com?subject=Project%20implementation%20inquiry) with the problem, target platform, expected deliverables, and approximate timeline. Please don't email secrets or customer data.
+- **Scope first:** feasibility, pricing, licensing and ongoing support are agreed case by case. Existing open-source rights remain unchanged.
+
 ## Elsewhere
 
 - [Archivonchik](https://github.com/gogolumo/archivonchik-ai-ready-skill) — repository memory and context tooling for coding agents.
