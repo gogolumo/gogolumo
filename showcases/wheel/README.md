@@ -29,6 +29,8 @@ Wheel is an experimental, native macOS utility: hold the configured trigger, mov
 
 Wheel does **not** reliably restore an exact application window, browser tab, Finder folder, IDE file, scroll position or unsaved state. The current app is at **application-level navigation**, not complete workspace/session restoration. Input trigger and permissions require physical macOS validation; screenshots alone are not that proof.
 
+[Original screenshot provenance and MIT notice](ASSET_PROVENANCE.md).
+
 ### Screenshot provenance
 
 These images were rendered from the **packaged Wheel.app production UI** against isolated **synthetic fixture data**, not captured from somebody's desktop or confidential documents. Appearance depends on macOS version and accessibility settings.
