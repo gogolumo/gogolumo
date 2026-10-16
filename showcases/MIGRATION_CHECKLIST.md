@@ -2,6 +2,19 @@
 
 **Status:** public showcase assets staged in the portfolio, **not** newly created standalone GitHub repositories. Existing original repositories are **still public** until their owner manually changes visibility through GitHub's repository settings.
 
+## Optional guarded Mac publication
+
+After reviewing these files, use GitHub CLI ([installation and authentication](https://cli.github.com/)) from this portfolio checkout:
+
+```sh
+bash showcases/publish.sh
+# Verify both newly created public showcase repositories and existing legal/CI obligations.
+# This is a SEPARATE step that confirms backup and privacy consequences:
+bash showcases/publish.sh --make-sources-private
+```
+
+The script checks the authenticated account, refuses to overwrite existing repos, creates *new* Git histories, and demands explicit typed confirmation. It does not remove or rewrite public history; both source repositories remain public until the second command finishes successfully.
+
 ## Safe migration sequence
 
 1. **Inventory ownership and license obligations.** Check all original contributors, third-party dependencies, existing MIT notices, released artifacts, PRs and the project's history. Previously distributed MIT versions remain available under those rights, even if future versions are closed.
