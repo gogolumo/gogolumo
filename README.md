@@ -11,9 +11,9 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/gogolumo/Wheel"><b>Wheel</b></a>
+  <a href="showcases/wheel/README.md"><b>Wheel</b></a>
   &nbsp;·&nbsp;
-  <a href="https://github.com/gogolumo/PlaySparse"><b>PlaySparse</b></a>
+  <a href="showcases/playsparse/README.md"><b>PlaySparse</b></a>
   &nbsp;·&nbsp;
   <a href="https://github.com/gogolumo/punktiq-showcase"><b>Punktiq</b></a>
   &nbsp;·&nbsp;
@@ -73,6 +73,15 @@ I’m still learning a lot, so my usual process is pretty simple: **build it, br
   <code>Docker</code>
   <code>Linux</code>
 </p>
+
+## Selected project showcases
+
+The following presentations contain vetted UI screenshots, product capabilities and evidence boundaries **without the original application source code**. Both projects are in development; neither page advertises a finished commercial release.
+
+- **[Wheel — macOS spatial navigation](showcases/wheel/README.md)** · [static portfolio page](showcases/wheel/index.html) · early app-level MVP.
+- **[PlaySparse — adaptive game storage](showcases/playsparse/README.md)** · [static portfolio page](showcases/playsparse/index.html) · experimental Rust/Tauri research.
+
+For private deployments, custom engineering or integrations, use the contact link above. Existing MIT rights for previously published public code remain unaffected.
 
 ## Current focus
 
